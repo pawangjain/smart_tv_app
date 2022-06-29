@@ -1,0 +1,1039 @@
+ગુજરાતી
+हिन्दी
+English
+Deutsch
+Español
+Portuguese
+
+https://dbapi.dadabhagwan.org/api/schedule/webtvlang
+
+{
+    "result": {
+        "webtvlang": [{
+                "CHANNEL_ID": 58,
+                "CHANNEL_NAME": "Gujarati"
+            }, {
+                "CHANNEL_ID": 59,
+                "CHANNEL_NAME": "Hindi"
+            }, {
+                "CHANNEL_ID": 60,
+                "CHANNEL_NAME": "English"
+            }
+        ]
+    }
+}
+
+ **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  *
+ 
+ 
+https://dbapi.dadabhagwan.org/api/tv/getindiatime
+
+{
+    "result": {
+        "indiadatetime": "2021-08-10 16:24:11"
+    }
+}
+
+ **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  *
+
+https://dbapi.dadabhagwan.org/api/tv/tvschedule?curdate=2021-08-11&channel=58
+
+{
+    "result": {
+        "tvschedule": [{
+                "TOTIME": "01:01",
+                "FROMTIME": "00:00",
+                "VIDEO_NAME": "Aptavani-11(P) Part-15",
+                "duration": "01:01:00",
+                "VIDEO_SHORT_NAME": "Aptavani-11(P) Parayan Part-15",
+                "SEQUENCE": 0,
+                "SCHEDULE_DATE": "2021-08-11T00:00:00.000Z",
+                "VIDEO_ID": 33,
+                "WEB_TV_SCHEDULE_ID": 604354,
+                "AUTHOR_NAME": "Pujya Deepakbhai",
+                "Program_Image": "https://i.vimeocdn.com/video/335362353_295x166.jpg",
+                "VIDEO_TYPE_ID": 33
+            }, {
+                "TOTIME": "01:11",
+                "FROMTIME": "01:01",
+                "VIDEO_NAME": "2nd January 2014",
+                "duration": "00:10:10",
+                "VIDEO_SHORT_NAME": "Glimpses - 2nd January 2014",
+                "SEQUENCE": 61,
+                "SCHEDULE_DATE": "2021-08-11T00:00:00.000Z",
+                "VIDEO_ID": 11694,
+                "WEB_TV_SCHEDULE_ID": 604355,
+                "AUTHOR_NAME": "Pujya Deepakbhai",
+                "Program_Image": "https://i.vimeocdn.com/video/818641105_295x166.jpg",
+                "VIDEO_TYPE_ID": 40
+            },{
+                "TOTIME": "23:53",
+                "FROMTIME": "23:03",
+                "VIDEO_NAME": "Aptavani-13(U) Parayan Part-35",
+                "duration": "00:50:48",
+                "VIDEO_SHORT_NAME": "Aptavani-13(U) Parayan Part-35",
+                "SEQUENCE": 1383,
+                "SCHEDULE_DATE": "2021-08-11T00:00:00.000Z",
+                "VIDEO_ID": 12607,
+                "WEB_TV_SCHEDULE_ID": 604405,
+                "AUTHOR_NAME": "Pujya Deepakbhai",
+                "Program_Image": "https://i.vimeocdn.com/video/923109605_295x166.jpg",
+                "VIDEO_TYPE_ID": 33
+            }, {
+                "TOTIME": "23:59",
+                "FROMTIME": "23:53",
+                "VIDEO_NAME": "Palitana Jatra 2016",
+                "duration": "00:06:05",
+                "VIDEO_SHORT_NAME": "Glimpses - Palitana Jatra 2016",
+                "SEQUENCE": 1433,
+                "SCHEDULE_DATE": "2021-08-11T00:00:00.000Z",
+                "VIDEO_ID": 12236,
+                "WEB_TV_SCHEDULE_ID": 604406,
+                "AUTHOR_NAME": "Unknown",
+                "Program_Image": "https://i.vimeocdn.com/video/868918854_295x166.jpg",
+                "VIDEO_TYPE_ID": 40
+            }
+        ]
+    }
+}
+
+ **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  *
+
+https://dbapi.dadabhagwan.org/api/tv/curtvprogram?curtime=16%3A42%3A22&curdate=2021-08-11+16%3A42%3A22&channel=58&daytransition=0&liveflag=0
+
+{
+    "result": {
+        "curtvprogram": [{
+                "EMBED_CODE": "<iframe id=\"vimeoplayer\" video=\"68038551\" src=\"https://player.vimeo.com/video/44919792?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1&api=1&player_id=vimeoplayer\" allow=\"autoplay; fullscreen\" width=\"640\" height=\"390\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>",
+                "VIDEO_ID": 739,
+                "VIDEO_PATH": null,
+                "VIDEO_SHORT_NAME": "Aptavani-9 Parayan Part-42",
+                "VIDEO_NAME": "Aptavani-9 Parayan Part-42",
+                "IS_LIVE": "",
+                "Duration": "2828",
+                "FROMTIME": "16:32:15",
+                "TV_SCH_ID": 604387,
+                "IS_PRIME": "Y",
+                "IS_VIDEO": "",
+                "YOUTUBE_EMBED_CODE": "<iframe id=\"vimeoplayer\" src=\"https://www.youtube-nocookie.com/embed/zgBOZ_vl-LQ?rel=0&autoplay=1&start=&end=&modestbranding=1&enablejsapi=1&origin=https://www.dadabhagwan.tv\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+                "VIDEO_URL": "https://www.youtube-nocookie.com/embed/zgBOZ_vl-LQ"
+            }
+        ]
+    }
+}
+
+ **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  *
+
+https://dbapi.dadabhagwan.org/api/tv/tvschedule?curdate=2021-08-10&channel=60
+
+https://dbapi.dadabhagwan.org/api/tv/liveschedule
+
+https://dbapi.dadabhagwan.org/api/tv/specialsatsang?lang=gujarati
+
+ **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  *
+
+https: //akfast.akonnect.org/api/fetch_live_info/
+
+{
+    "user_tz": "IST"
+}
+
+"live_satsang_video_list": [
+            {
+                "languageName": "Gujarati",
+                "youtubeVideoId": "mRVjmBBuSoo",
+                "languageId": 1,
+                "embedCode": "<iframe src=\"https://www.youtube.com/embed/mRVjmBBuSoo?rel=0\" height=\"315\" width=\"560\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                "videoUrl": "https://www.youtube.com/embed/mRVjmBBuSoo?rel=0",
+                "languageOrder": 1,
+                "isAutoPlay": true,
+                "isRedirectToYouTube": true,
+                "translation": false,
+                "eventTitle": "LIVE PMHT Shibir Activity in Gujarati - 14 August 2021",
+                "eventDate": "14 August 2021",
+                "startTime": "05:30 PM",
+                "endTime": "07:00 PM"
+            },
+            {
+                "languageName": "Hindi",
+                "youtubeVideoId": "vZPmcvmuC0U",
+                "languageId": 2,
+                "embedCode": "<iframe src=\"https://www.youtube.com/embed/vZPmcvmuC0U?rel=0\" height=\"315\" width=\"560\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                "videoUrl": "https://www.youtube.com/embed/vZPmcvmuC0U?rel=0",
+                "languageOrder": 2,
+                "isAutoPlay": true,
+                "isRedirectToYouTube": true,
+                "translation": true,
+                "eventTitle": "LIVE PMHT Shibir Activity - Hindi Translation - 14 August 2021",
+                "eventDate": "14 August 2021",
+                "startTime": "05:30 PM",
+                "endTime": "07:00 PM"
+            }
+        ],
+		
+		
+{
+    "data": {
+        "is_live": "N",
+        "default_timezone": "IST",
+        "live_satsang_schedule": [{
+                "schedule_id": 5213,
+                "title": "Online PMHT Shibir",
+                "event_start_date": "11 Aug",
+                "event_end_date": "16 Aug",
+                "user_event_start_date": "11 Aug",
+                "user_event_end_date": "16 Aug",
+                "location": "Adalaj, India",
+                "remarks": "11 Aug : 8 to 9 am - સત્સંગ ટોપિક \"મેરા પરિવાર સુખી પરિવાર\"\n11 Aug : 5.30 to 7 pm - આપ્ત્પુત્ર સત્સંગ\n11 Aug : 8.30 to 10 pm - સત્સંગ ટોપિક \"મેરા પરિવાર સુખી પરિવાર\"\n12 Aug : 8 to 9 am - સત્સંગ ટોપિક \"મેરા પરિવાર સુખી પરિવાર\"\n12 Aug : 5.30 to 6.15 pm - સ્પેશિયલ વિડીયો\n12 Aug : 6.15 to 7 pm - સામાયિક\n12 Aug : 8.30 to 10 pm - પારાયણ & પ્રશ્નોતરી સત્સંગ \"પતિ-પત્નીનો દિવ્ય વ્યવહાર (ગ્રંથ), પેજ - 47\"\n13 Aug : 8 to 9 am - સત્સંગ ટોપિક \"મેરા પરિવાર સુખી પરિવાર\"\n13 Aug : 5.30 to 6.15 pm - સ્પેશિયલ વિડીયો\n13 Aug : 6.15 to 7 pm - સામાયિક\n13 Aug : 8.30 to 10 pm - પારાયણ & પ્રશ્નોતરી સત્સંગ \"મા-બાપ છોકરાનો વ્યવહાર (ગ્રંથ), પેજ - 29\"\n14 Aug : 8 to 9 am - સત્સંગ ટોપિક \"મેરા પરિવાર સુખી પરિવાર\"\n14 Aug : 5.30 to 7 pm - Activity Session\n14 Aug : 8.30 to 10 pm - પારાયણ & પ્રશ્નોતરી સત્સંગ \"પૈસાનો વ્યવહાર (ગ્રંથ), પેજ - 30\"\n15 Aug : 8 to 9 am - સત્સંગ ટોપિક \"મેરા પરિવાર સુખી પરિવાર\"\n15 Aug : 5.30 to 6.15 pm - સ્પેશિયલ વિડીયો\n15 Aug : 6.15 to 7 pm - સામાયિક\n16 Aug : 9 to 10 pm - સત્સંગ ટોપિક \"મેરા પરિવાર સુખી પરિવાર\" ",
+                "email": null,
+                "contact": "9328661166 / 9328661177",
+                "main_language": "GUJ",
+                "main_language_full_name": "Gujarati",
+                "translation_languages_full_name": "English,Hindi",
+                "translation_languages": "ENG,HIN",
+                "event_schedule_detail_list": [{
+                        "day": "11 Aug",
+                        "day_of_week": "Wed",
+                        "time": [
+                            "08:00 AM - 09:00 AM",
+                            "08:30 PM - 10:00 PM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "11",
+                        "start_day_of_week": "Wed",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "11 Aug",
+                        "day_of_week": "Wed",
+                        "time": [
+                            "05:30 PM - 07:00 PM"
+                        ],
+                        "category": "Satsang By Aptaputra",
+                        "start_day": "11",
+                        "start_day_of_week": "Wed",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "12 Aug",
+                        "day_of_week": "Thu",
+                        "time": [
+                            "08:00 AM - 09:00 AM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "12",
+                        "start_day_of_week": "Thu",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "12 Aug",
+                        "day_of_week": "Thu",
+                        "time": [
+                            "08:30 PM - 10:00 PM"
+                        ],
+                        "category": "Parayan",
+                        "start_day": "12",
+                        "start_day_of_week": "Thu",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "13 Aug",
+                        "day_of_week": "Fri",
+                        "time": [
+                            "08:00 AM - 09:00 AM",
+                            "08:30 PM - 10:00 PM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "13",
+                        "start_day_of_week": "Fri",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "14 Aug",
+                        "day_of_week": "Sat",
+                        "time": [
+                            "08:00 AM - 09:00 AM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "14",
+                        "start_day_of_week": "Sat",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "14 Aug",
+                        "day_of_week": "Sat",
+                        "time": [
+                            "08:30 PM - 10:00 PM"
+                        ],
+                        "category": "Parayan",
+                        "start_day": "14",
+                        "start_day_of_week": "Sat",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "15 Aug",
+                        "day_of_week": "Sun",
+                        "time": [
+                            "08:00 AM - 09:00 AM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "15",
+                        "start_day_of_week": "Sun",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "16 Aug",
+                        "day_of_week": "Mon",
+                        "time": [
+                            "09:00 PM - 10:00 PM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "16",
+                        "start_day_of_week": "Mon",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ],
+                "user_schedule_detail_list": [{
+                        "day": "11 Aug",
+                        "day_of_week": "Wed",
+                        "time": [
+                            "08:00 AM - 09:00 AM",
+                            "08:30 PM - 10:00 PM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "11",
+                        "start_day_of_week": "Wed",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "11 Aug",
+                        "day_of_week": "Wed",
+                        "time": [
+                            "05:30 PM - 07:00 PM"
+                        ],
+                        "category": "Satsang By Aptaputra",
+                        "start_day": "11",
+                        "start_day_of_week": "Wed",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "12 Aug",
+                        "day_of_week": "Thu",
+                        "time": [
+                            "08:00 AM - 09:00 AM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "12",
+                        "start_day_of_week": "Thu",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "12 Aug",
+                        "day_of_week": "Thu",
+                        "time": [
+                            "08:30 PM - 10:00 PM"
+                        ],
+                        "category": "Parayan",
+                        "start_day": "12",
+                        "start_day_of_week": "Thu",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "13 Aug",
+                        "day_of_week": "Fri",
+                        "time": [
+                            "08:00 AM - 09:00 AM",
+                            "08:30 PM - 10:00 PM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "13",
+                        "start_day_of_week": "Fri",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "14 Aug",
+                        "day_of_week": "Sat",
+                        "time": [
+                            "08:00 AM - 09:00 AM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "14",
+                        "start_day_of_week": "Sat",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "14 Aug",
+                        "day_of_week": "Sat",
+                        "time": [
+                            "08:30 PM - 10:00 PM"
+                        ],
+                        "category": "Parayan",
+                        "start_day": "14",
+                        "start_day_of_week": "Sat",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "15 Aug",
+                        "day_of_week": "Sun",
+                        "time": [
+                            "08:00 AM - 09:00 AM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "15",
+                        "start_day_of_week": "Sun",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }, {
+                        "day": "16 Aug",
+                        "day_of_week": "Mon",
+                        "time": [
+                            "09:00 PM - 10:00 PM"
+                        ],
+                        "category": "Satsang",
+                        "start_day": "16",
+                        "start_day_of_week": "Mon",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ]
+            }, {
+                "schedule_id": 5214,
+                "title": "Online Rakshabandhan Celebration",
+                "event_start_date": "22 Aug",
+                "event_end_date": "22 Aug",
+                "user_event_start_date": "22 Aug",
+                "user_event_end_date": "22 Aug",
+                "location": "Adalaj, India",
+                "remarks": null,
+                "email": null,
+                "contact": "9328661166 / 9328661177",
+                "main_language": "GUJ",
+                "main_language_full_name": "Gujarati",
+                "translation_languages_full_name": null,
+                "translation_languages": null,
+                "event_schedule_detail_list": [{
+                        "day": "22 Aug",
+                        "day_of_week": "Sun",
+                        "time": [
+                            "10:00 AM - 11:00 AM"
+                        ],
+                        "category": "Pujan-Aarti",
+                        "start_day": "22",
+                        "start_day_of_week": "Sun",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ],
+                "user_schedule_detail_list": [{
+                        "day": "22 Aug",
+                        "day_of_week": "Sun",
+                        "time": [
+                            "10:00 AM - 11:00 AM"
+                        ],
+                        "category": "Pujan-Aarti",
+                        "start_day": "22",
+                        "start_day_of_week": "Sun",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ]
+            }, {
+                "schedule_id": 5107,
+                "title": "Online Janmashtami Celebration",
+                "event_start_date": "30 Aug",
+                "event_end_date": "30 Aug",
+                "user_event_start_date": "30 Aug",
+                "user_event_end_date": "30 Aug",
+                "location": "Adalaj, India",
+                "remarks": null,
+                "email": null,
+                "contact": "9328661166 / 9328661177",
+                "main_language": "GUJ",
+                "main_language_full_name": "Gujarati",
+                "translation_languages_full_name": null,
+                "translation_languages": null,
+                "event_schedule_detail_list": [{
+                        "day": "30 Aug",
+                        "day_of_week": "Mon",
+                        "time": [
+                            "10:00 PM - 12:30 AM"
+                        ],
+                        "category": "Celebration",
+                        "start_day": "30",
+                        "start_day_of_week": "Mon",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ],
+                "user_schedule_detail_list": [{
+                        "day": "30 Aug",
+                        "day_of_week": "Mon",
+                        "time": [
+                            "10:00 PM - 12:30 AM"
+                        ],
+                        "category": "Celebration",
+                        "start_day": "30",
+                        "start_day_of_week": "Mon",
+                        "start_month": "Aug",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ]
+            }, {
+                "schedule_id": 5101,
+                "title": "Paryushan Parayan (Advanced Study) in Adalaj, India",
+                "event_start_date": "04 Sep",
+                "event_end_date": "12 Sep",
+                "user_event_start_date": "04 Sep",
+                "user_event_end_date": "12 Sep",
+                "location": "Adalaj, India",
+                "remarks": null,
+                "email": null,
+                "contact": "9328661166 / 9328661177",
+                "main_language": "GUJ",
+                "main_language_full_name": "Gujarati",
+                "translation_languages_full_name": "English,Hindi",
+                "translation_languages": "ENG,HIN",
+                "event_schedule_detail_list": [{
+                        "day": "04 Sep - 12 Sep",
+                        "day_of_week": "Sat - Sun",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "04",
+                        "start_day_of_week": "Sat",
+                        "start_month": "Sep",
+                        "end_day": "12",
+                        "end_day_of_week": "Sun",
+                        "end_month": "Sep"
+                    }
+                ],
+                "user_schedule_detail_list": [{
+                        "day": "04 Sep - 12 Sep",
+                        "day_of_week": "Sat - Sun",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "04",
+                        "start_day_of_week": "Sat",
+                        "start_month": "Sep",
+                        "end_day": "12",
+                        "end_day_of_week": "Sun",
+                        "end_month": "Sep"
+                    }
+                ]
+            }, {
+                "schedule_id": 5108,
+                "title": "Diwali Celebration in Adalaj, India",
+                "event_start_date": "04 Nov",
+                "event_end_date": "04 Nov",
+                "user_event_start_date": "04 Nov",
+                "user_event_end_date": "04 Nov",
+                "location": "Adalaj, India",
+                "remarks": null,
+                "email": null,
+                "contact": "9328661166 / 9328661177",
+                "main_language": "GUJ",
+                "main_language_full_name": "Gujarati",
+                "translation_languages_full_name": "English,Hindi",
+                "translation_languages": "ENG,HIN",
+                "event_schedule_detail_list": [{
+                        "day": "04 Nov",
+                        "day_of_week": "Thu",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "04",
+                        "start_day_of_week": "Thu",
+                        "start_month": "Nov",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ],
+                "user_schedule_detail_list": [{
+                        "day": "04 Nov",
+                        "day_of_week": "Thu",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "04",
+                        "start_day_of_week": "Thu",
+                        "start_month": "Nov",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ]
+            }, {
+                "schedule_id": 5109,
+                "title": "New Year Celebration in Adalaj, India",
+                "event_start_date": "05 Nov",
+                "event_end_date": "05 Nov",
+                "user_event_start_date": "05 Nov",
+                "user_event_end_date": "05 Nov",
+                "location": "Adalaj, India",
+                "remarks": null,
+                "email": null,
+                "contact": "9328661166 / 9328661177",
+                "main_language": "GUJ",
+                "main_language_full_name": "Gujarati",
+                "translation_languages_full_name": "English,Hindi",
+                "translation_languages": "ENG,HIN",
+                "event_schedule_detail_list": [{
+                        "day": "05 Nov",
+                        "day_of_week": "Fri",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "05",
+                        "start_day_of_week": "Fri",
+                        "start_month": "Nov",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ],
+                "user_schedule_detail_list": [{
+                        "day": "05 Nov",
+                        "day_of_week": "Fri",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "05",
+                        "start_day_of_week": "Fri",
+                        "start_month": "Nov",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ]
+            }, {
+                "schedule_id": 5110,
+                "title": "Dada Bhagwan's 114th Janma Jayanti",
+                "event_start_date": "17 Nov",
+                "event_end_date": "21 Nov",
+                "user_event_start_date": "17 Nov",
+                "user_event_end_date": "21 Nov",
+                "location": "Adalaj, India",
+                "remarks": null,
+                "email": null,
+                "contact": "9328661166 / 9328661177",
+                "main_language": "GUJ",
+                "main_language_full_name": "Gujarati",
+                "translation_languages_full_name": "English,Hindi",
+                "translation_languages": "ENG,HIN",
+                "event_schedule_detail_list": [{
+                        "day": "17 Nov - 21 Nov",
+                        "day_of_week": "Wed - Sun",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "17",
+                        "start_day_of_week": "Wed",
+                        "start_month": "Nov",
+                        "end_day": "21",
+                        "end_day_of_week": "Sun",
+                        "end_month": "Nov"
+                    }, {
+                        "day": "18 Nov",
+                        "day_of_week": "Thu",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "18",
+                        "start_day_of_week": "Thu",
+                        "start_month": "Nov",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ],
+                "user_schedule_detail_list": [{
+                        "day": "17 Nov - 21 Nov",
+                        "day_of_week": "Wed - Sun",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "17",
+                        "start_day_of_week": "Wed",
+                        "start_month": "Nov",
+                        "end_day": "21",
+                        "end_day_of_week": "Sun",
+                        "end_month": "Nov"
+                    }, {
+                        "day": "18 Nov",
+                        "day_of_week": "Thu",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "18",
+                        "start_day_of_week": "Thu",
+                        "start_month": "Nov",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ]
+            }, {
+                "schedule_id": 5111,
+                "title": "Pujya Niruma’s Birthday Celebration",
+                "event_start_date": "02 Dec",
+                "event_end_date": "02 Dec",
+                "user_event_start_date": "02 Dec",
+                "user_event_end_date": "02 Dec",
+                "location": "Adalaj, India",
+                "remarks": null,
+                "email": null,
+                "contact": "9328661166 / 9328661177",
+                "main_language": "GUJ",
+                "main_language_full_name": "Gujarati",
+                "translation_languages_full_name": "English,Hindi",
+                "translation_languages": "ENG,HIN",
+                "event_schedule_detail_list": [{
+                        "day": "02 Dec",
+                        "day_of_week": "Thu",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "02",
+                        "start_day_of_week": "Thu",
+                        "start_month": "Dec",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ],
+                "user_schedule_detail_list": [{
+                        "day": "02 Dec",
+                        "day_of_week": "Thu",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "02",
+                        "start_day_of_week": "Thu",
+                        "start_month": "Dec",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ]
+            }, {
+                "schedule_id": 5102,
+                "title": "Parayan (Advanced Study) in Adalaj, India",
+                "event_start_date": "25 Dec",
+                "event_end_date": "01 Jan",
+                "user_event_start_date": "25 Dec",
+                "user_event_end_date": "01 Jan",
+                "location": "Adalaj, India",
+                "remarks": null,
+                "email": null,
+                "contact": "9328661166 / 9328661177",
+                "main_language": "GUJ",
+                "main_language_full_name": "Gujarati",
+                "translation_languages_full_name": "English,Hindi",
+                "translation_languages": "ENG,HIN",
+                "event_schedule_detail_list": [{
+                        "day": "25 Dec - 01 Jan",
+                        "day_of_week": "Sat - Sat",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "25",
+                        "start_day_of_week": "Sat",
+                        "start_month": "Dec",
+                        "end_day": "01",
+                        "end_day_of_week": "Sat",
+                        "end_month": "Jan"
+                    }
+                ],
+                "user_schedule_detail_list": [{
+                        "day": "25 Dec - 01 Jan",
+                        "day_of_week": "Sat - Sat",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "25",
+                        "start_day_of_week": "Sat",
+                        "start_month": "Dec",
+                        "end_day": "01",
+                        "end_day_of_week": "Sat",
+                        "end_month": "Jan"
+                    }
+                ]
+            }, {
+                "schedule_id": 5103,
+                "title": "Small Murti's Pran Pratistha in Adalaj, India",
+                "event_start_date": "02 Jan",
+                "event_end_date": "02 Jan",
+                "user_event_start_date": "02 Jan",
+                "user_event_end_date": "02 Jan",
+                "location": "Adalaj, India",
+                "remarks": null,
+                "email": null,
+                "contact": "9328661166 / 9328661177",
+                "main_language": "GUJ",
+                "main_language_full_name": "Gujarati",
+                "translation_languages_full_name": "English,Hindi",
+                "translation_languages": "ENG,HIN",
+                "event_schedule_detail_list": [{
+                        "day": "02 Jan",
+                        "day_of_week": "Sun",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "02",
+                        "start_day_of_week": "Sun",
+                        "start_month": "Jan",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ],
+                "user_schedule_detail_list": [{
+                        "day": "02 Jan",
+                        "day_of_week": "Sun",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "02",
+                        "start_day_of_week": "Sun",
+                        "start_month": "Jan",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ]
+            }, {
+                "schedule_id": 5104,
+                "title": "Pujya Dada's Punyatithi in Adalaj, India",
+                "event_start_date": "02 Jan",
+                "event_end_date": "02 Jan",
+                "user_event_start_date": "02 Jan",
+                "user_event_end_date": "02 Jan",
+                "location": "Adalaj, India",
+                "remarks": null,
+                "email": null,
+                "contact": "9328661166 / 9328661177",
+                "main_language": "GUJ",
+                "main_language_full_name": "Gujarati",
+                "translation_languages_full_name": "English,Hindi",
+                "translation_languages": "ENG,HIN",
+                "event_schedule_detail_list": [{
+                        "day": "02 Jan",
+                        "day_of_week": "Sun",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "02",
+                        "start_day_of_week": "Sun",
+                        "start_month": "Jan",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ],
+                "user_schedule_detail_list": [{
+                        "day": "02 Jan",
+                        "day_of_week": "Sun",
+                        "time": [
+                            "TBA"
+                        ],
+                        "category": "",
+                        "start_day": "02",
+                        "start_day_of_week": "Sun",
+                        "start_month": "Jan",
+                        "end_day": "",
+                        "end_day_of_week": "",
+                        "end_month": ""
+                    }
+                ]
+            }
+        ],
+        "live_satsang_video_list": [{
+                "languageName": "Gujarati",
+                "youtubeVideoId": "AJ8Iwplfz0w",
+                "languageId": 1,
+                "embedCode": "<iframe src=\"https://www.youtube.com/embed/AJ8Iwplfz0w?rel=0\" height=\"315\" width=\"560\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                "videoUrl": "https://www.youtube.com/embed/AJ8Iwplfz0w?rel=0",
+                "languageOrder": 1,
+                "isAutoPlay": true,
+                "isRedirectToYouTube": true,
+                "translation": false,
+                "eventTitle": "LIVE Special Video in Gujarati - 12 August 2021",
+                "eventDate": "12 August 2021",
+                "startTime": "05:30 PM",
+                "endTime": "06:15 PM"
+            }, {
+                "languageName": "English",
+                "youtubeVideoId": "U0ZmAWnch4g",
+                "languageId": 3,
+                "embedCode": "<iframe src=\"https://www.youtube.com/embed/U0ZmAWnch4g?rel=0\" height=\"315\" width=\"560\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                "videoUrl": "https://www.youtube.com/embed/U0ZmAWnch4g?rel=0",
+                "languageOrder": 3,
+                "isAutoPlay": true,
+                "isRedirectToYouTube": true,
+                "translation": true,
+                "eventTitle": "LIVE Special Video - English Translation - 12 August 2021",
+                "eventDate": "12 August 2021",
+                "startTime": "05:30 PM",
+                "endTime": "06:15 PM"
+            }
+        ],
+        "dbf_youtube_channel_url": "https://www.youtube.com/user/dadabhagwan?view_as=subscriber?sub_confirmation=1",
+        "today_schedule_url": "https://downloads.akonnect.org/todays_schedule/live_schedule_12_Aug_2021.jpg"
+    },
+    "success": true,
+    "gujarati": "",
+    "hindi": "",
+    "english": "",
+    "message": "",
+    "code": "0"
+}
+ **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  *
+https: //dbapi.dadabhagwan.org/api/homelivewebcast
+
+{
+    "result": {
+        "homelivewebcast": [[{
+                    "LiveEventId": 1,
+                    "LiveLanguage": "ગુજ ",
+                    "EmbedCodeOrUrl": "<iframe src=\"https://www.youtube.com/embed/AJ8Iwplfz0w?rel=0\" height=\"315\" width=\"560\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                    "Translation": false,
+                    "Language": "Gujarati"
+                }, {
+                    "LiveEventId": 3,
+                    "LiveLanguage": "ENG",
+                    "EmbedCodeOrUrl": "<iframe src=\"https://www.youtube.com/embed/U0ZmAWnch4g?rel=0\" height=\"315\" width=\"560\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                    "Translation": true,
+                    "Language": "English"
+                }, {
+                    "LiveEventId": 4,
+                    "LiveLanguage": "हिंदी",
+                    "EmbedCodeOrUrl": "<iframe src=\"https://www.youtube.com/embed/m5SKPfnpbM4?rel=0\" height=\"315\" width=\"560\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                    "Translation": true,
+                    "Language": "Hindi"
+                }
+            ]]
+    }
+}
+{
+    "result": {
+        "homelivewebcast": [[{
+                    "LiveEventId": 2,
+                    "LiveLanguage": "ગુજ ",
+                    "EmbedCodeOrUrl": "<iframe src=\"https://www.dadabhagwan.tv/specialsatsang/gujarati/\" height=\"250px\" width=\"100%\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                    "Translation": false,
+                    "Language": "Gujarati"
+                }
+            ]]
+    }
+}
+
+ "live_satsang_video_list": [
+            {
+                "languageName": "Gujarati",
+                "youtubeVideoId": "",
+                "languageId": 1,
+                "embedCode": "<iframe src=\"https://www.dadabhagwan.tv/specialsatsang/gujarati/\" height=\"250px\" width=\"100%\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                "videoUrl": "https://www.dadabhagwan.tv/specialsatsang/gujarati/",
+                "languageOrder": 1,
+                "isAutoPlay": true,
+                "isRedirectToYouTube": false,
+                "translation": false,
+                "eventTitle": "All Aarti",
+                "eventDate": "17 August 2021",
+                "startTime": "",
+                "endTime": ""
+            }
+        ],
+
+ **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  *
+ **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  *
+ **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  *
+ **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  *
+**  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  *
+
+R:flutter/lib/ui/ui_dart_state.cc(186)] Unhandled Exception: PlatformException(ACTIVITY_NOT_FOUND, No Activity found to handle intent { youtube://www.youtube.com/watch?v=x14nWLcbYIw }, null, null)
+
+
+ "live_satsang_video_list": [
+            {
+                "languageName": "Gujarati",
+                "youtubeVideoId": "MgsA4YyUQ5c",
+                "languageId": 1,
+                "embedCode": "",
+                "videoUrl": "https://www.youtube.com/embed/MgsA4YyUQ5c?rel=0",
+                "shareUrl": "https://www.dadabhagwan.tv/library/aarti-vidhi/",
+                "shareText": "\n                        \n                            *Aarti-Vidhi is Live !!!*\n\n                            Video URL: https://www.dadabhagwan.tv/library/aarti-vidhi/\n                            \n\n                        *Akonnect App*:\n                        https://akonnect.org/app\n\n                        *DadaBhagwan App*:\n                        https://www.dadabhagwan.org/app\n\n                        *DadaBhagwan TV*:\n                        https://www.dadabhagwan.tv\n\n                        Shared from Akonnect\n                        ",
+                "languageOrder": 1,
+                "isAutoPlay": true,
+                "isRedirectToYouTube": true,
+                "translation": false,
+                "eventTitle": "Aarti Vidhi",
+                "eventDate": "02 September 2021",
+                "startTime": 42600.0,
+                "endTime": 46007.0
+            }
+        ],
