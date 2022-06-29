@@ -1,6 +1,6 @@
-# DadaBhagwan TV App - for Smart TV
+## Video Flickering TV app demo of a Youtube video on Mi TV Stick
 
-## Getting Started
+Getting Started
 
 This project is a starting point for a Flutter application.
 
